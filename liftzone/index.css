@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+#menu {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+#menu #centered-links {
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+#menu #centered-links a:hover {
+    background-color: #ff0000;
+    color: #222;
+}
+
+#menu #profile_icon {
+    position: absolute;
+    right: 20px;
+}
+
+#menu #profile_icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
